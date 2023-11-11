@@ -12,31 +12,31 @@
 <br> The Bootloader Application is responsible for managing the firmware update process on the STM32F103C8 microcontrollers. It facilitates the reception, validation, and installation of firmware updates received from the Firmware Update Server via the ESP8266-01 module. The Bootloader ensures the integrity and reliability of the update process while minimizing downtime and disruptions to the connected devices.
 
 ### Workflow
-<br> - User Uploads Application Update to Server:
+<br> 1. User Uploads Application Update to Server:
 
-Users upload updated versions of the application to the Firmware Update Server.
+<br> Users upload updated versions of the application to the Firmware Update Server.
 
-<br> - ESP8266-01 Waits for Bootloader Signal:
+<br> 2. ESP8266-01 Waits for Bootloader Signal:
 
 <br> ESP8266-01 modules connected to the STM32F103C8 microcontrollers wait for a signal from the Bootloader to initiate the firmware update process.
 
-<br> - ESP8266-01 Requests Application Version from Server:
+<br> 3. ESP8266-01 Requests Application Version from Server:
 
 <br> Upon receiving the signal, the ESP8266-01 communicates with the Firmware Update Server, requesting information about the latest application version.
 
-<br> - Server Sends Application Version to ESP8266-01:
+<br> 4. Server Sends Application Version to ESP8266-01:
 
 <br> The Firmware Update Server responds with the version information, and the ESP8266-01 retrieves the necessary firmware update.
 
-<br> - ESP8266-01 Sends Update to Bootloader via UART:
+<br> 5. ESP8266-01 Sends Update to Bootloader via UART:
 
 <br> The ESP8266-01 communicates with the Bootloader application on the STM32F103C8 microcontroller via UART, sending the firmware update.
 
-<br> - Bootloader Validates and Installs Update:
+<br> 6. Bootloader Validates and Installs Update:
 
 <br> The Bootloader validates the received firmware update, ensuring its integrity.
 If the update is valid, the Bootloader installs the new firmware on the microcontroller, completing the update process.
-System Architecture Diagram
+## System Architecture Diagram
 
 
 ## Documentation
