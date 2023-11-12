@@ -1,7 +1,7 @@
 # Firmware Over-The-Air (FOTA) 
 <br> Welcome to the Firmware Over-The-Air (FOTA) project! This project is designed to provide a seamless and efficient mechanism for updating firmware on embedded systems. The FOTA system is structured around three main components: the Firmware Update Server, ESP8266-01 acting as a WiFi module, and the Bootloader Application for STM32F103C8 microcontrollers.
 <br>
-![FOTA System](https://github.com/Youssef-74/Firmware_Over_The_Air-FOTA/assets/72941786/880bab61-fa67-48d9-9497-d6344c0b2697)
+![FOTA System (1)](https://github.com/Youssef-74/Firmware_Over_The_Air-FOTA/assets/72941786/b70a5491-8747-475b-b64d-40cf1ff72c83)
 <br>
 # Overview
 ## Firmware Update Server
