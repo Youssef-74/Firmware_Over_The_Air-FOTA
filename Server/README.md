@@ -13,28 +13,28 @@ The script handles the upload of firmware files, manages version tracking, calcu
 2. Version Tracking:
 
 * Maintains a version.txt file to track the latest uploaded firmware version.
-* Updates the version only if the uploaded version is greater than the current highest version.<br>
-3- CRC32 Calculation:
+* Updates the version only if the uploaded version is greater than the current highest version.
+3. CRC32 Calculation:
 
 * Generates CRC32 checksums for uploaded firmware files.
 * Uses a custom CRC32 calculation function.<br>
-4- File Storage:
+4. File Storage:
 
 * Organizes uploaded firmware files in directories based on their versions.
 * Creates version-specific directories for each firmware version.
 ## How to Use
-1- Upload Firmware:
+1. Upload Firmware:
 
 * Use the provided HTML form to select and upload firmware files.
 * Ensure files are named in the format 'filename.version.bin'.<br> 
-2- Version Tracking:
+2. Version Tracking:
 
 * The latest uploaded version is recorded in version.txt.
 * Only updates if the uploaded version is greater than the current highest version.<br>
-3- CRC32 Calculation:
+3. CRC32 Calculation:
 
 * CRC32 checksums are calculated for each uploaded firmware file.<br>
-4- File Storage:
+4. File Storage:
 
 * Files are organized into version-specific directories.
 * Each version directory contains the firmware file (app.bin), CRC32 checksum file (crc.txt), and file size file (size.txt).
