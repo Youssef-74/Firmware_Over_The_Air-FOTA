@@ -14,7 +14,7 @@ The script handles the upload of firmware files, manages version tracking, calcu
 
 * Maintains a version.txt file to track the latest uploaded firmware version.
 * Updates the version only if the uploaded version is greater than the current highest version.
-<br> 3- CRC32 Calculation:
+<br>3- CRC32 Calculation:
 
 * Generates CRC32 checksums for uploaded firmware files.
 * Uses a custom CRC32 calculation function.
