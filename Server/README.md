@@ -1,7 +1,8 @@
 # Firmware Over The Air (FOTA) Update - Server Side
 ## Introduction
-This PHP script is designed for server-side implementation, specifically tailored for Firmware Over The Air (FOTA) updates. It's intended to be hosted on a free web hosting area, providing a straightforward solution for updating firmware in a microcontroller-based project.
-
+This PHP script is designed for server-side implementation, specifically tailored for Firmware Over The Air (FOTA) updates. It's intended to be hosted on a free web hosting area, providing a straightforward solution for updating firmware in a microcontroller-based project.<br>
+![Screenshot (6)](https://github.com/Youssef-74/Firmware_Over_The_Air-FOTA/assets/72941786/bc015fa8-4498-4c65-bddc-eed296481827)
+<br>
 ## Description
 The script handles the upload of firmware files, manages version tracking, calculates CRC32 checksums, and organizes file storage in version-specific directories. It's designed to work within the constraints of a free web hosting environment.
 
