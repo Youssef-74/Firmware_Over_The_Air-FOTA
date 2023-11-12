@@ -1,4 +1,4 @@
-## Firmware Over-the-Air (FOTA) Project using ESP8266-01
+## Firmware Over-the-Air (FOTA) ESP8266-01(WiFi module) side
 
 ### Features:
 1. **Wi-Fi Connection:** The ESP8266-01 connects to the Wi-Fi network with SSID "WE_E7B4C7" and password "m8m28975".
