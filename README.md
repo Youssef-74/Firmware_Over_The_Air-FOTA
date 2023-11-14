@@ -39,6 +39,7 @@
 <br> The Bootloader validates the received firmware update, ensuring its integrity.
 If the update is valid, the Bootloader installs the new firmware on the microcontroller, completing the update process.
 ## System Architecture Diagram
+![Add a subheading](https://github.com/Youssef-74/Firmware_Over_The_Air-FOTA/assets/72941786/b078235c-cd7e-484e-95e3-a35784e990b4)
 
 
 ## Documentation
