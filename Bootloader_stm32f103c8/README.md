@@ -1,4 +1,4 @@
-# FOTA Bootloader Application side
+# Firmware Over The Air (FOTA) Update - Bootloader Application side
 
 Welcome to the Firmware Over-The-Air (FOTA) Bootloader Application for STM32F103C8 microcontrollers. This bootloader is an integral part of the FOTA project, facilitating seamless firmware updates on embedded systems.
 
