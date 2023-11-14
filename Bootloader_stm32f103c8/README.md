@@ -69,7 +69,3 @@ To integrate the FOTA Bootloader into your project, follow the instructions prov
 
 Feel free to explore and contribute to the development of the FOTA Bootloader for STM32F103C8. We welcome feedback, bug reports, and contributions to enhance the functionality and reliability of the bootloader.
 
-Happy coding!
-
-[Your Organization Name]
-
